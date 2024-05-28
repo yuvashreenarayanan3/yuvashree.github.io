@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/17bb2c7205.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo4.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hello,<br> I'm <span>YUVASHREE </span>Narayanan</h1>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Dynamic Software Engineer with two years at Societe Generale, experienced in developing REST APIs and backend skills using Java, Spring Boot, Hibernate, and various database systems to build production-ready applications. Experienced in designing, developing, testing and deploying various systems, with expertise in multithreaded programming and object-oriented design. Proficient in Kubernetes, Docker, and Jenkins for seamless deployment and management. Skilled in end-to-end implementation, including requirement gathering, and module development. As the primary developer, led project lifecycles, ensuring successful delivery. Known for innovative problemsolving and collaboration, excelling in fast-paced environments, delivering impactful software solutions that solve real-world problems and add value to stakeholders.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!--timeline-->
+  <div class="timeline">
+        <div class="middle-line"></div>
+
+        <div class="box box-bottom">
+            <div class="date">
+                <p>Aug</p>
+                <p>2022</p>
+            </div>
+            <div class="box-content">
+                <h1>Software Engineer</h1>
+                <p>Societe Generale</p>
+                <p>Developed and deployed Java applications using Spring Boot and Hibernate. Led projects, enhanced performance, and implemented automation solutions.</p>
+            </div>
+        </div>
+        <div class="box box-top">
+            <div class="date">
+                <p>Apr</p>
+                <p>2022</p>
+            </div>
+            <div class="box-content">
+                <h1>B.Tech in Information Technology</h1>
+                <p>Anna University, MIT Campus</p>
+                <p>CGPA: 8.36/10</p>
+            </div>
+        </div>
+        <div class="box box-bottom">
+            <div class="date">
+                <p>Apr</p>
+                <p>2018</p>
+            </div>
+            <div class="box-content">
+                <h1>Higher Secondary Certificate</h1>
+                <p>TMHNU Matric. Hr. Sec School</p>
+                <p>Percentage: 97.1</p>
+            </div>
+        </div>
+        <div class="box box-top">
+            <div class="date">
+                <p>Apr</p>
+                <p>2016</p>
+            </div>
+            <div class="box-content">
+                <h1>Secondary School Leaving Certificate</h1>
+                <p>SVVM Matric. Hr. Sec School</p>
+                <p>Percentage: 98.2</p>
+            </div>
+        </div>
+  </div>
+
+  <!--Skills-->
+  <div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div class="skill-card">
+                <div class="front">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming Languages</h2>
+                </div>
+                <div class="back">
+                    <div class="pl">
+                    <ul class="skill">
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="front">
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management System</h2>
+                </div>
+                <div class="back">
+                    <div class="db">
+                    <ul class="skill">
+                        <li>Oracle SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="front">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <h2>Tools and Technologies</h2>
+                </div>
+                <div class="back">
+                    <ul class="skill">
+                        <li>SpringBoot</li>
+                        <li>Hibernate</li>
+                        <li>Maven</li>
+                        <li>REST API</li>
+                        <li>Kibana</li>
+                        <li>Jenkins</li>
+                        <li>Kubernetes</li>
+                        <li>Docker</li>
+                        <li>Git</li>
+                        <li>SAP Business Objects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!--Portfolio-->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/portfolio-image3.png">
+                <div class="layer">
+                    <h3>Protfolio Website</h3>
+                    <p>Created a responsive personal portfolio website using HTML and CSS to showcase professional experience, skills, projects, and achievements. Ensured optimal user experience with clean design, effective layout, and seamless navigation.
+                    </p>
+                    <a href="file:///F:/Project/MY_WEBSITE/index.html"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/microservice-project2.png">
+                <div class="layer">
+                    <h3>Real-time Microoservice Project</h3>
+                    <p>The Real-Time Microservice Project is an e-commerce platform developed with Java, SpringBoot, Docker, and Kubernetes. It supports 10,000 concurrent users, processes over 1,000 orders per minute, and achieves 90% uptime, leveraging Kafka and Resilience4J to reduce failures by 80%. Secured with OAuth2, the platform maintains an API response time under 200ms.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/secure-shopping2.png">
+                <div class="layer">
+                    <h3>Secure Online Shopping Website</h3>
+                    <p>The Secure Online Shopping Website allows customers to order products and make payments via debit/credit cards. Built with PHP, HTML, CSS, JavaScript, and MySQL, it secures card details using AES encryption and reduces security vulnerabilities with anti-SQL injection measures.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!--CONTACT-->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-square-envelope"></i>yuvashreenarayanan7@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+917708337674</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yuvashree-narayanan-1840731aa/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://github.com/yuvashreenarayanan3"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.geeksforgeeks.org/user/yuvashreenarayanan/"><i class="fa-solid fa-file-code"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1d4WyQCw2EuDzNFFDjcKJj6n-3BSMKrqn/view?usp=sharing" download class="btn btn2">Downloand Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Yuvashree. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJO6Eq1_0n46ViaW01ExLIVTG-0jhhR-pUQVA-kDyrti4tIGntL6sG7rl30f5ihu6Xnw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
