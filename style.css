@@ -474,11 +474,14 @@ nav .fa-solid{
         background-size: contain;
         background-position: 110%;
         background-position-y: 25%;
+        background-position-x: 110%;
         background-size: 50%;
+        margin-bottom: 0%;
     }
     .header-text{
-        margin-top: 50%;
+        margin-top: 30%;
         margin-right: 40%;
+        margin-bottom: 0%;
         line-height: 25px;
         font-size: 16px;
     }
@@ -525,6 +528,7 @@ nav .fa-solid{
     }
     .about-col-2{
         font-size: 14px;
+        margin-top: 0%;
     }
     .tab-links{
         font-size: 16px;
